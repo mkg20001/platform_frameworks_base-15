@@ -43,4 +43,6 @@ interface IGms2Gca {
     void privSettingsUnregisterObserver(IContentObserver observer);
 
     Notification getMediaProjectionNotification();
+
+    boolean setupWorkProfileGms(int workUser, int callingUser, in String[] adminPkgs);
 }
